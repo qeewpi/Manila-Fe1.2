@@ -15,7 +15,7 @@ function Nav() {
                     <Link to="/states" className="link">Member #1</Link>
                     </li>
                     <li>
-                    <Link to="/effect" className="link">Effect</Link>
+                    <Link to="/effect" className="link">Member #2</Link>
                     </li>
                     <li>
                         <Link to="/map" className="link">Map</Link>
