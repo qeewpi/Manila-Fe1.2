@@ -22,9 +22,12 @@ function Nav() {
                     </li>
                     <li>
                         <Link to="/hooks" className="link">Member #4</Link>
+<<<<<<< HEAD
                     </li>
                     <li>
                         <Link to="/memberfive" className="link">Member #5</Link>
+=======
+>>>>>>> 8fbb1fbb2e1e43f0a7fc0eee77ef4f74fce5ac27
                     </li>
                 </ul>
             </div>
