@@ -6,24 +6,13 @@ import employees from './data.json';
 
 
 function Map() {
+  // using the useState hook to create a state variable for user chosen color
+  const [color, setColor] = useState("white");
+
   return (
-    <div className="map">
+    <div className="content" style={{ backgroundColor: color }}>
 
-      <h2 className="header">Mapping JSON values</h2>
-
-        <div className="body">
-
-          {employees.map((employee, index) => (
-                <div key={index} className="cards">
-                  <h2>{employee.employee_name}</h2>
-                  <p>Employee Code: {employee.employee_code}</p>
-                  <p>Department: {employee.department}</p>
-                  <p>Email: {employee.email_address}</p>
-                </div>
-              ))}
-
-        </div>
-
+      <p>Miguel T. Soniel SN: 2021104644</p>
 
     </div>
   )
