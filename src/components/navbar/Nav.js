@@ -21,7 +21,10 @@ function Nav() {
                         <Link to="/map" className="link">Member #3</Link>
                     </li>
                     <li>
-                        <Link to="/hooks" className="link">Hooks</Link>
+                        <Link to="/hooks" className="link">Member #4</Link>
+                    </li>
+                    <li>
+                        <Link to="/memberfive" className="link">Member #5</Link>
                     </li>
                 </ul>
             </div>

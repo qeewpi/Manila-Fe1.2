@@ -1,21 +1,21 @@
 import React from 'react'
+
+// importing the useState hook
 import { useState } from "react";
-import "./mapstyles.css"
 
-// importing json data as employees
-import employees from './data.json';
+import "./statestyles.css"
 
-function Map() {
+function MemberFive() {
   // using the useState hook to create a state variable for user chosen color
   const [color, setColor] = useState("white");
 
   return (
     <div className="content" style={{ backgroundColor: color }}>
 
-    <p>Miguel T. Soniel SN: 2021104644</p>
+      <p>Member #5 SN: SN</p>
 
     </div>
   )
 }
 
-export default Map
+export default MemberFive

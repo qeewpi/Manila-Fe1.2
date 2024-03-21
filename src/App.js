@@ -10,6 +10,7 @@ import States from "./components/pages/states/States";
 import Effect from "./components/pages/useEffect/Effect";
 import Hooks from "./components/pages/hooks/Hooks";
 import Error from "./components/pages/error/Error";
+import MemberFive from "./components/pages/five/MemberFive";
 
 import './App.css';
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="/effect" element={<Effect />} />
             <Route path="/map" element={<Map />} />
             <Route path="/hooks" element={<Hooks />} />
+            <Route path="/memberfive" element={<MemberFive />} />
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>
