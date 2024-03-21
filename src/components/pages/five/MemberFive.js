@@ -11,7 +11,7 @@ function MemberFive() {
   return (
     <div className="content" style={{ backgroundColor: color }}>
 
-      <p>Member #5 SN: SN</p>
+      <p>Tejada, Ervin C. SN: 2021101878</p>
 
     </div>
   )
